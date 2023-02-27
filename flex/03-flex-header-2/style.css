@@ -13,9 +13,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  align-items: center;
-  padding: 16px;
-  gap: 8px;
+  align-items: center; /*This should be in login
+  container instead and replaced with 
+  justify-content: space-between*/
+   padding: 16px; /*no padding */
+  gap: 8px; /*16px*/
 }
 
 .profile-image {
@@ -51,7 +53,7 @@ a {
 ul {
   display: flex;
   list-style-type: none;
-  gap: 8px;
+  gap: 8px; /* this needs to be 16px*/
   align-items: center;
   margin: 0;
   padding: 0;
@@ -61,6 +63,7 @@ ul {
 .login{
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-left: auto;
+  gap: 8px; /*16px*/
+  margin-left: auto; /*If i used the containers
+   properly, this would would not be needed*/
 }
