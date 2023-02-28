@@ -17,36 +17,43 @@ img {
   margin-bottom: 32px;
 }
 
+.text{
+  text-align: center;
+}
+
 .Plants{
   display: flex;
   justify-content: center;
-  align-items: center;
-  
+  gap: 52px;
 }
 
 
 .Plant-a{
   display: flex;
-  margin-left: 52px;
-  margin-right: 52px;
+  justify-content: center;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 .Plant-b{
   display: flex;
-  margin-left: 52px;
-  margin-right: 52px;
+  justify-content: center;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 .Plant-c{
   display: flex;
-  margin-left: 52px;
-  margin-right: 52px;
+  justify-content: center;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 .Plant-d{
   display: flex;
-  margin-left: 52px;
-  margin-right: 52px;
+  justify-content: center;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
