@@ -29,28 +29,28 @@ img {
 
 
 .Plant-a{
-  display: flex;
+  display: flex; /*This is not necessary*/
   justify-content: center;
-  width: 200px;
+  width: 200px; /*should have used max-width instead*/
   flex-wrap: wrap;
 }
 
 .Plant-b{
-  display: flex;
+  display: flex; /*This is not necessary*/
   justify-content: center;
   width: 200px;
   flex-wrap: wrap;
 }
 
 .Plant-c{
-  display: flex;
+  display: flex; /*This is not necessary*/
   justify-content: center;
   width: 200px;
   flex-wrap: wrap;
 }
 
 .Plant-d{
-  display: flex;
+  display: flex; /*This is not necessary*/
   justify-content: center;
   width: 200px;
   flex-wrap: wrap;
