@@ -22,7 +22,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 20px;
-  align-items: flex-start;
+  align-items: flex-start; /*unnecessary*/
   gap: 20px;
 }
 
@@ -72,13 +72,13 @@ button.cancel {
 }
 
 .container {
-  display: flex;
+  display: flex; /*unnecessary, over complicate things*/
   /* flex-wrap: wrap; */
-  flex-direction: column;
+  flex-direction: column;/*unnecessary, over complicate things*/
   gap: 8px;
 }
 
-.container2 {
+.container2 { /*unnecessary, if we don't need above flex then class is not needed*/
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -89,21 +89,22 @@ button.cancel {
   font-size: large;
   font-weight: bold;
   justify-content: space-between;
+  /*need spacing using margin bottom*/
 }
 
-.header-container{
+.header-container{ /*unnecessary*/
   display: flex;
 }
 
 .close-button {
-  display: flex;
+  display: flex; /*unnecessary*/
 }
 
 .text {
-  display: flex;
-  padding-bottom: 8px;
+  display: flex; /*unnecessary*/
+  padding-bottom: 8px; /*should have been margin-bottom*/
 }
 
 .cancel {
-  display: flex;
+  display: flex; /*unnecessary*/
 }
