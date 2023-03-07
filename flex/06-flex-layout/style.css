@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /*padding: 8px 16px*/
 }
 
 input {
@@ -31,7 +32,7 @@ input {
 
 .header{
   display: flex;
-  padding: 10px;
+  padding: 10px; /*See note below*/
   justify-content: space-between;
 
 }
@@ -47,7 +48,7 @@ input {
 
 .footer{
   display: flex;
-  padding: 10px;
+  padding: 10px; /*See note below*/
   justify-content: space-between;
   background-color: #eeeeee;
 
@@ -66,7 +67,7 @@ input {
 }
 
 .buttons{
-  padding: 10px;
+  padding: 10px; /*wrong placement*/
 }
 
 a{
@@ -76,4 +77,9 @@ a{
 
 ul {
   list-style-type: none;
+  /* margin: 0; */
+  /* padding: 0; */
 }
+
+/* NOTE: when spacing elements, ideal measurements
+seem to be 8px and 16px 90% of the time */
