@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; /*unnecessary*/
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
   color: white;
   font-size: 32px;
   font-weight: 900;
-  padding-left: 16px;
+  padding-left: 16px; /*Note*/
 }
 
 .footer {
@@ -71,3 +71,8 @@ ul {
 li{
   margin-bottom: 16px;
 }
+
+/*Note: When padding has 1 value: padding: all-sides
+        When padding has 2 values: padding: top-bottom | sides
+        When padding has 3 values: padding: top | sides | bottom
+        When padding has 4 values: padding: top | right | bottom | left */
